@@ -615,7 +615,7 @@ section {
 }
 
 .services .icon-box:hover::before {
-  background: #1bbca3;
+  background: #7ebffc;
   right: 0;
   top: 0;
   width: 100%;
@@ -666,7 +666,7 @@ section {
 }
 
 .services .icon-box:hover .icon i {
-  color: #1bbca3;
+  color: 004e96;
 }
 
 /*--------------------------------------------------------------
