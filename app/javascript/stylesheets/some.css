@@ -10,11 +10,11 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #334240;
+  color: #000000;
 }
 
 a {
-  color: #1bbca3;
+  color: #1b5ebc;
 }
 
 a:hover {
@@ -78,7 +78,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo h1 a, #header .logo h1 a:hover {
-  color: #425451;
+  color: #004582;
   text-decoration: none;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -468,7 +468,6 @@ section {
 .section-title h2 {
   font-size: 32px;
   font-weight: 700;
-  text-transform: uppercase;
   margin-bottom: 20px;
   padding-bottom: 0;
   color: #4b605c;
