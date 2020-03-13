@@ -1,22 +1,22 @@
-<nav class="navbar nav-menu navbar-expand-lg">
-   <div class="container">
+<nav id="header" class="navbar nav-menu navbar-expand-lg">
+   <div id="header" class="container">
       <div class="d-flex w-100" id="navbar-menu">
          <div class="mr-auto" id="navbar-menu-left-side">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Index <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#"><%= link_to "Home", statis_site_index_path %>/a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Use Cases</a>
+        <a class="nav-link" href="#" > <%= link_to "Use Cases", statis_site_usecases_path %></a> 
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Partners</a>
+        <a class="nav-link" href="#"><%= link_to "Resources", statis_site_resources_path %></a> </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Resources</a>
+        <a class="nav-link" href="#"><%= link_to "Partners", statis_site_partners_path %></a> </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
+        <a class="nav-link" href="#"><%= link_to "About", statis_site_about_path %></a>
       </li>
     </ul>
   </div>
