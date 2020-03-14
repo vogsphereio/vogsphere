@@ -470,12 +470,10 @@ section {
   font-weight: 700;
   margin-bottom: 20px;
   padding-bottom: 0;
-  color: #000000;
 }
 
 .section-title p {
   margin-bottom: 0;
-  color: #000000;
 }
 
 /*--------------------------------------------------------------
@@ -624,11 +622,9 @@ section {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
-    color: #003f82;
 }
 
 .services .title a {
-  color: #003f82;
 }
 
 .services .description {
@@ -637,17 +633,7 @@ section {
   margin-bottom: 0;
 }
 
-.services .icon-box:hover .title a, .services .icon-box:hover .description {
-  color: #fff;
-}
 
-.services .icon-box:hover .icon {
-  background: #fff;
-}
-
-.services .icon-box:hover .icon i {
-  color: 004e96;
-}
 
 /*--------------------------------------------------------------
 # Cta
