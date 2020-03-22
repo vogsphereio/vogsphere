@@ -2,11 +2,20 @@
   padding: $jumbotron-padding ($jumbotron-padding / 0);
   margin-bottom: $jumbotron-padding;
   color: $jumbotron-color;
-    background: url("../img/vog-800.png"); 
+  background: url("../img/vog-800.png"); 
   @include border-radius($border-radius-lg);
   @include media-breakpoint-up(sm) {
     padding: ($jumbotron-padding * 2) $jumbotron-padding;
   }
+}
+
+.jumbtron p {
+color: #fff;
+font-size: 20px;
+}
+
+.jumbotron h1 {
+    color: #fff
 }
 
 .jumbotron-fluid {

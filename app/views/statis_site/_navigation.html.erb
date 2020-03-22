@@ -1,8 +1,13 @@
 <nav id="header" class="navbar nav-menu navbar-expand-lg">
    <div id="header" class="container">
-      <div class="d-flex w-100" id="navbar-menu">
-         <div class="mr-auto" id="navbar-menu-left-side">
-    <ul class="navbar-nav mr-auto">
+       <div class="logo mr-auto">
+         <h1 class="text-light"><a href="index.html"><span>Vogsphere</span></a></h1>
+         <!-- Uncomment below if you prefer to use an image logo -->
+         <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+       </div>
+    <div class="d-flex w-100" id="navbar-menu">
+      <div class="mr-auto" id="navbar-menu-left-side">
+      <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
         <a class="nav-link" href="#"><%= link_to "Home", statis_site_index_path %> </a> 
       </li>
@@ -20,10 +25,10 @@
       </li>
     </ul>
   </div>
-           <div id="navbar-menu-right-side">
+  <div id="navbar-menu-right-side">
 	<%= render "social_bar" %>  
 
-          </div>
+   </div>
        </div>
     </div>
  </nav>
