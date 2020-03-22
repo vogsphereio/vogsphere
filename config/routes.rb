@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :contacts
   root 'statis_site#index'
   get 'statis_site/index'
   get 'statis_site/usecases'

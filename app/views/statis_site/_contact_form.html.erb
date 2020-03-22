@@ -1,11 +1,8 @@
 <!--Section: Contact v.2-->
-
-<form>
-  <div class="form-group">
-    <label for="exampleInputEmail1">Testnet is Live!</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-    <small id="emailHelp" class="form-text text-muted">Contact us to start building on Vogsphere</small>
-  </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
-</form>
-<!--Section: Contact v.2-->
+<div><%= form_with(model:@contact) do |f| %>
+   <%= f.label :name %>
+   <%= f.text_field :name %>
+   <%= f.label :email %>
+   <%= f.text_field :email %>
+  <%= f.submit "Send" %>
+<% end %></div>
