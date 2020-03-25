@@ -505,6 +505,7 @@ section {
   font-weight: 700;
   margin-top: 5px;
   color: #7a6960;
+    text-align: center;
 }
 
 .about i {
@@ -514,8 +515,9 @@ section {
 }
 
 .about p {
-  font-size: 15px;
+  font-size: 20px;
   color: #5a6570;
+  text-align: center;
 }
 
 @media (max-width: 991px) {
