@@ -1,40 +1,31 @@
-<nav id="header" class="navbar nav-menu navbar-expand-lg">
-   <div id="header" class="container">
-       <div class="logo mr-auto">
-         <h1 class="text-light"><a href="index.html"><span>Vogsphere</span></a></h1>
+<nav class="navbar nav-menu navbar-expand-lg">
+    <div id="header" class="container">
+        <div class="logo mr-auto">
+        <!-- Uncomment below if you prefer to use a text logo -->
+            <!-- <h1 class="text-light"><a href="/"><span>Vogsphere</span></a></h1> -->
 
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-      </div>
 
-      <nav class="nav-menu d-none d-lg-block">
-      <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#"><%= link_to "Home", statis_site_index_path %> </a> 
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#" > <%= link_to "About", '#about' %></a> 
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#"><%= link_to "Use Cases", '#use_cases' %></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#"><%= link_to "Build", '#contact' %></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#"><%= link_to "Features", '#features' %></a>
-      </li>
-    </ul>
-  </div>
-  <div id="navbar-menu-right-side">
-	<%= render "social_bar" %>  
+            <a href="/"><%=image_tag("/assets/logo.png",alt:"Vogsphere",class:"img-fluid logo")%></a>
+        </div>
 
-   </div>
-       </div>
+        <nav class="nav-menu d-none d-lg-block">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <%= link_to "About", '#about', class:"nav-link" %>
+                </li>
+                <li class="nav-item">
+                    <%= link_to "Use Cases", '#use_cases', class:"nav-link" %>
+                </li>
+                <li class="nav-item">
+                    <%= link_to "Features", '#features', class:"nav-link" %>
+                </li>
+                <li class="nav-item">
+                    <%= link_to "Build", '#contact', class:"nav-link btn btn-outline-primary btn-sm" %>
+                </li>
+            </ul>
+        </nav>
     </div>
- </nav>
-  
-  </nav>
+</nav>
     <!-- Header -->
 
   

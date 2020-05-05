@@ -2,7 +2,9 @@
   padding: $jumbotron-padding ($jumbotron-padding / 0);
   margin-bottom: $jumbotron-padding;
   color: $jumbotron-color;
-  background: url("../img/vog-800.png"); 
+  background: url("../img/sphere_graphic_L.jpg") no-repeat center top;
+  background-size: 100% auto;
+  min-height: 395px; 
   @include border-radius($border-radius-lg);
   @include media-breakpoint-up(sm) {
     padding: ($jumbotron-padding * 2) $jumbotron-padding;
@@ -15,7 +17,11 @@ font-size: 20px;
 }
 
 .jumbotron h1 {
-    color: #fff
+    font-size: 31px;
+    line-height: 46px;
+    color: #fff;
+    font-family: 'Raleway-black';
+/*    font-weight: 900; */
 }
 
 .jumbotron-fluid {

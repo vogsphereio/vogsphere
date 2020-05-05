@@ -1,24 +1,33 @@
-	<%= render "navigation" %>  
-
-
-  <header class="jumbotron">
+   <header class="jumbotron">
+<%= render "navigation" %>
     <div class="container d-flex h-180 align-items-center">
-      <div class="text-left">
-        <h1 class="mt-4 mb-5 col-lg-6 col-md-6">The time has come for a more private, secure, and trusted Internet. </h1>
+      <div class="text-center">
+        <h1 class="mt-4 mb-5 col-md-12">High performance, scale-out blockchain for a more secure, private, and trusted Internet.</h1>
       </div>
     </div>
   </header>
 
   <!-- About Section -->
   <section section id="about" class="about">
-    <div class="container col-lg-6 col-md-6">
-        <div>
-	<p class="lead">The Internet was designed to be decentralized. It was made to be both fault-tolerant and censorship-resistant. But today services, identity and data are monopolized, monetized, and surveilled by Big Tech and governments. They are also highly insecure, constantly breached and hacked, and widely mistrusted.</p>
-	<p class="lead">New decentralization technologies can help, but technology has not kept up. Existing solutions are too slow, impossible to scale, rigid, and difficult to implement.</p>
-	<h4> Enter Vogsphere. . .</h4>
-	<p class="lead"> Vogsphere provides a complete infrastructure for building and running secure decentralized applications and network services at global scale. Using Vogsphere, developers can build applications that are secure and compliant by default. Companies can increase security while getting rid of layers of expensive and cumbersome legacy point solutions (such as VPNs, gateways, LDAPs, Identity Providers, etc.)</p>
-	<p class="lead">How does it work? Vogsphere is built on a unique foundation that combines the latest crypto with the latest database scaling techniques--with lots of innovation on top.</p>
+    <div class="container col-md-10">
+    
+        <h1>Vogsphere provides a complete infrastructure for building and running secure decentralized applications and network services at global scale. <%= link_to "Start building today", '#contact' %> </h1>
+    
+        <div class="d-flex flex-row-reverse">
+            <div class="col-md-5"><%=image_tag("/assets/eye_graphic.png",alt:"Eye graphic",class:"img-fluid logo")%></div>
+            <div class="col-md-5">
+                <h3>Why Vogsphere?</h3>
+                <p>Services, identity and data are monopolized, monetized, and surveilled by Big Tech and governments. Existing solutions are slow and difficult to implement. Enter Vogsphere: the complete solution to protect your data at a global scale.</p>
+            </div>
         </div>
+        <div class="d-flex flex-row">
+            <div><%=image_tag("/assets/V_graphic.png",alt:"V graphic",class:"img-fluid logo")%></div>
+            <div>
+                <h3>How does it work?</h3>
+                <p>Vogsphere combines the latest crypto with the latest database scaling techniques. Developers can build secure and compliant applications by default. Companies can increase security while getting rid of legacy point solutions (such as VPNs, gateways, LDAPs, Identity Providers, etc.)</p>
+            </div>
+        </div>
+           
       </div>
   </section>  
   
@@ -26,8 +35,7 @@
      <section id="use_cases" class="services">
        <div class="container">
          <div class="section-title">
-           <h2>Use Cases: What is Vogsphere Good For?</h2>
-           <p class="description">Vogsphere is a 'Swiss army knife' for decentralization, increasing security, privacy, and trust for a new generation of services and applications. SDKs and APIs make life easy for developers. Enterprise-grade deployability and manageability make it friendly for businesses small and large.</p>
+           <h2>What makes Vogsphere amazing?</h2>
          </div>
 
          <div class="row">
@@ -68,26 +76,19 @@
        </div>
      </section><!-- End Use Cases Section -->
 
-     <!-- ======= Cta Section ======= -->
-     <section class="contact" id="contact">
-       <div class="container">
-
-         <div class="text-center">
-           <h3>Start Building on Vogsphere</h3>
-           <p> The Vogsphere Testnet is live! Developers working on applications that need a secure distributed ledger can launch a subnet and start building today. Get in touch and we'll help you architect and build your apps.</p>
-           <a class="cta-btn" href="#">Build It!</a>
-         </div>
-
-       </div>
-     </section><!-- End Cta Section -->
-	 
+<!-- ======= Quote Section ======= -->
+        <section class="quote">
+          <div class="container">
+            <h1>Vogsphere is a 'Swiss army knife' for decentralization, increasing security, privacy, and trust for a new generation of services and applications.</h1>     
+	      </div>
+	    </section>
      <!-- ======= Benefits Section ======= -->
         <section id="features" class="services">
           <div class="container">
 
             <div class="section-title">
               <h2>What Sets Vogsphere Apart?</h2>
-              <p class="description">Most decentralization tech is developed by ivory tower academics with little real-world software experience. Drawing on over 20 years of experience in crypto, distributed systems, and cybersecurity at dominant companies, Vogsphere is the only platform that provides true decentralization along with robust capabilities that meet the most demanding needs of enterprises and developers. </p>
+              <p class="description">Drawing on over 20 years of experience in crypto, distributed systems, and cybersecurity at dominant companies, Vogsphere is the only platform that provides true decentralization along with robust capabilities for enterprises and developers. </p>
             </div>
 
             <div class="row">
@@ -127,6 +128,20 @@
 
           </div>
         </section><!-- Benefits Section -->
+        
+       <!-- ======= Cta Section ======= -->
+         <section class="contact" id="contact">
+           <div class="container">
+
+             <div class="text-center">
+               <h3>Start Building on Vogsphere</h3>
+               <p>Developers working on applications that need a secure distributed ledger can launch a subnet and start building. Get in touch and we'll help you architect and build your apps.</p>
+               <a class="cta-btn" href="#">GET STARTED</a>
+             </div>
+
+           </div>
+         </section><!-- End Cta Section -->
+
 
   
   	<%= render "footer" %>  
