@@ -1097,11 +1097,10 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #fff;
+  background: #000;
   padding: 0 0 30px 0;
-  color: #212529;
+  color: #fff;
   font-size: 14px;
-  background: #fef8f5;
 }
 
 #footer .footer-newsletter {
@@ -1158,7 +1157,6 @@ section {
 
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #fff;
 }
 
 #footer .footer-top .footer-contact {
@@ -1216,22 +1214,21 @@ section {
 }
 
 #footer .footer-top .footer-links ul a {
-  color: #5c5c5c;
+  color: #fff;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  text-decoration: none;
-  color: #0e58ad;
+  text-decoration: underline;
 }
 
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #0e58ad;
-  color: #fff;
+  background: transparent;
+  color: #B3B3B3;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -1243,7 +1240,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #ef7f4d;
+  background: #be1d2e;
   color: #fff;
   text-decoration: none;
 }
