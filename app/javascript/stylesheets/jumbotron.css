@@ -17,11 +17,11 @@ font-size: 20px;
 }
 
 .jumbotron h1 {
-    font-size: 31px;
+    font-size: 48px;
     line-height: 46px;
     color: #fff;
-    font-family: 'Raleway-black';
-/*    font-weight: 900; */
+    font-family: 'Fira-sans';
+    font-weight: 900;
 }
 
 .jumbotron-fluid {
